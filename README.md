@@ -16,9 +16,7 @@
 2 cnpm run dev
 
 ## 前后端分机运行
-1 修改pylatter/get_msg.py  
-'''
-app.run(host='0.0.0.0', port=5000)
-'''
+1 启用pylatter/get_msg.py最后一行代码  
+app.run(host='0.0.0.0', port=5000)  
 2 修改pyformer/src/utils.js中path的值，改为后端ip  
 详情见前端文件的readme
