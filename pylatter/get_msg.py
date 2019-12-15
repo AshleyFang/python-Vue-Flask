@@ -131,5 +131,5 @@ def analyze():
 
 # 启动运行
 if __name__ == '__main__':
-    # app.run()   # 这样子会直t接运行在本地服务器，也即是 localhost:5000
-    app.run(host='0.0.0.0', port=5000)  # 这里可通过 host 指定在公网IP上运行
+    app.run()   # 这样子会直t接运行在本地服务器，也即是 localhost:5000
+    # app.run(host='0.0.0.0', port=5000)  # 这里可通过 host 指定在公网IP上运行
